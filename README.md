@@ -1,7 +1,7 @@
 
 ---
 
-# 3. 2D Collision Simulation
+# 2D Collision Simulation
 
 ```markdown
 # 2D Collision Simulation
@@ -23,10 +23,13 @@ This project models elastic collisions using conservation laws from classical me
 ## Physics Concepts
 
 - Conservation of Momentum
-- Conservation of Kinetic Energy
+- Conservation of Kinetic Energy(approximately conserved; small numerical errors may arise due to the Euler integration method)
 - Elastic Collisions
-- Vector Mechanics
 - Newton's Laws of Motion
+
+## Numerical Concepts
+
+- Euler method is used for frame by frame mathematical calculation for position and velocity of each particle in the simulation.
 
 ## Technologies Used
 
